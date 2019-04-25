@@ -1,4 +1,4 @@
-## LSP Service discovery
+## LSP Service discovery [![Build Status](https://travis-ci.com/ffadilaputra/lsp-discovery-service.svg?branch=master)](https://travis-ci.com/ffadilaputra/lsp-discovery-service)
 
 ## Service Discovery
 
