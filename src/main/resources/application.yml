@@ -1,0 +1,15 @@
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      password: ${EUREKA_USER_PASSWORD:password}
+server:
+  port: 8761
+security:
+  user:
+  password: ${eureka.password}
+spring:
+  application:
+    name: lsp-discovery-service
